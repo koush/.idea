@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Javac" />
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ion/ion-test/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ion/ion/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsyncTest/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/babel/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ion/ion-sample/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ClockworkModBilling/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Widgets/Widgets/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Backup/Backup/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/box-android-sdk/BoxAndroidLibrary/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/ROMManager/RomManager/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Test/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/DeskSMS/DeskSMS/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/google-play-services_lib/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../../android/packages/apps/VoicePlus/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/VoicePlus/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../../android/external/koush/Superuser/Superuser/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../../android-4.3/external/koush/Superuser/Superuser/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../Chromecast/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../cast-android-sample/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../android-support-v7/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../android-support-v7-mediarouter/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../cast-android-tictactoe/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Feedcast/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/MyCast/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/OneClick/gen" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
+
