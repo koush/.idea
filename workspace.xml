@@ -41,7 +41,11 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91cf4027-d083-485f-b214-0cc8713c8e39" name="Default" comment="" />
+    <list default="true" id="91cf4027-d083-485f-b214-0cc8713c8e39" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chromecast/Chromecast.iml" afterPath="$PROJECT_DIR$/Chromecast/Chromecast.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7-mediarouter/android-support-v7-mediarouter.iml" afterPath="$PROJECT_DIR$/android-support-v7-mediarouter/android-support-v7-mediarouter.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/android-support-v7/android-support-v7.iml" afterPath="$PROJECT_DIR$/android-support-v7/android-support-v7.iml" />
+    </list>
     <ignored path="Android.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -520,7 +524,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/../cast-android-sample/src/com/example/castsample/CastSampleActivity.java" line="462" class="com.example.castsample.CastSampleActivity" package="com.example.castsample">
+      <breakpoint url="file://$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/MainActivity.java" line="20" class="com.koushikdutta.mycast.MainActivity$1" package="com.koushikdutta.mycast">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -535,217 +539,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/../cast-android-sample/src/com/example/castsample/CastSampleActivity.java" line="460" class="com.example.castsample.CastSampleActivity" package="com.example.castsample">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/../cast-android-sample/src/com/example/castsample/CastSampleActivity.java" line="442" class="com.example.castsample.CastSampleActivity$4" package="com.example.castsample">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/../../android-4.3/external/koush/Superuser/Superuser/src/com/koushikdutta/superuser/MainActivity.java" line="175" class="com.koushikdutta.superuser.MainActivity$3" package="com.koushikdutta.superuser">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/../../android-4.3/external/koush/Superuser/Superuser/src/com/koushikdutta/superuser/MainActivity.java" line="198" class="com.koushikdutta.superuser.MainActivity$3" package="com.koushikdutta.superuser">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/../../android-4.3/external/koush/Superuser/Superuser/src/com/koushikdutta/superuser/util/SuHelper.java" line="8" class="com.koushikdutta.superuser.util.SuHelper" package="com.koushikdutta.superuser.util">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Test/src/com/koushikdutta/test/ChromecastService.java" line="235" class="com.koushikdutta.test.ChromecastService$6" package="com.koushikdutta.test">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsyncTest/src/com/koushikdutta/async/test/Issue55.java" line="33" class="com.koushikdutta.async.test.Issue55$1" package="com.koushikdutta.async.test">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/HttpUtil.java" line="59" class="com.koushikdutta.async.http.HttpUtil" package="com.koushikdutta.async.http">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/AsyncHttpResponseImpl.java" line="81" class="com.koushikdutta.async.http.AsyncHttpResponseImpl$3" package="com.koushikdutta.async.http">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Feedcast/src/com/koushikdutta/feedcast/PlaybackActivity.java" line="41" class="com.koushikdutta.feedcast.PlaybackActivity$1" package="com.koushikdutta.feedcast">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Feedcast/src/com/koushikdutta/feedcast/ChromecastService.java" line="137" class="com.koushikdutta.feedcast.ChromecastService$2" package="com.koushikdutta.feedcast">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Feedcast/src/com/koushikdutta/feedcast/ChromecastService.java" line="143" class="com.koushikdutta.feedcast.ChromecastService$2" package="com.koushikdutta.feedcast">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Feedcast/src/com/koushikdutta/feedcast/ChromecastService.java" line="95" class="com.koushikdutta.feedcast.ChromecastService" package="com.koushikdutta.feedcast">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Test/src/com/koushikdutta/test/ChromecastService.java" line="196" class="com.koushikdutta.test.ChromecastService$5" package="com.koushikdutta.test">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Test/src/com/koushikdutta/test/ChromecastService.java" line="193" class="com.koushikdutta.test.ChromecastService$5" package="com.koushikdutta.test">
+      <breakpoint url="file://$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/MainActivity.java" line="19" class="com.koushikdutta.mycast.MainActivity$1" package="com.koushikdutta.mycast">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -775,81 +569,6 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/HelpActivity.java" line="49" class="com.koushikdutta.mycast.HelpActivity" package="com.koushikdutta.mycast">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/HelpActivity.java" line="48" class="com.koushikdutta.mycast.HelpActivity" package="com.koushikdutta.mycast">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/ChromecastService.java" line="219" class="com.koushikdutta.mycast.ChromecastService" package="com.koushikdutta.mycast">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/CastActivity.java" line="96" class="com.koushikdutta.mycast.CastActivity$4" package="com.koushikdutta.mycast">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/ChromecastService.java" line="309" class="com.koushikdutta.mycast.ChromecastService" package="com.koushikdutta.mycast">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
     </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
@@ -861,59 +580,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="widget.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyCast/res/layout/widget.xml">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="306" selection-end="1553" vertical-scroll-proportion="-5.259259" vertical-offset="10" max-vertical-offset="1786">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="remote.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/MyCast/res/layout/remote.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="21" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.4837963" vertical-offset="247" max-vertical-offset="2166">
+            <state line="32" column="67" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
               <folding>
-                <element signature="e#1676#1697#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChromecastService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/ChromecastService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="311" column="100" selection-start="12048" selection-end="12048" vertical-scroll-proportion="0.0" vertical-offset="4948" max-vertical-offset="7429">
-              <folding>
-                <element signature="e#12603#12631#0" expanded="true" />
-                <element signature="e#14233#14524#0" expanded="true" />
-                <element signature="e#14509#14510#0" expanded="true" />
+                <element signature="e#933#1294#0" expanded="true" />
+                <element signature="e#1283#1284#0" expanded="true" />
+                <element signature="e#1351#1754#0" expanded="true" />
+                <element signature="e#1743#1744#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seek.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyCast/res/drawable/seek.xml">
+      <file leaf-file-name="HelpActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/HelpActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seek_background.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyCast/res/drawable/seek_background.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
-              <folding />
+            <state line="12" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.26057142" vertical-offset="0" max-vertical-offset="1634">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -931,7 +618,7 @@
     <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../android-support-v7" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/android-support-v7" />
   </component>
   <component name="GitLogSettings">
     <option name="myDateState">
@@ -996,29 +683,29 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1368651531000" />
+        <entry key="$PROJECT_DIR$" value="1370449612000" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/OneClick/src/org/cyanogenmod/oneclick/WindowsActivity.java" />
-        <option value="$PROJECT_DIR$/OneClick/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/OneClick/res/layout/usb.xml" />
-        <option value="$PROJECT_DIR$/OneClick/res/layout/windows.xml" />
-        <option value="$PROJECT_DIR$/OneClick/src/org/cyanogenmod/oneclick/UsbActivity.java" />
-        <option value="$PROJECT_DIR$/OneClick/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/MyCast/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/MyCast/res/drawable/border.xml" />
         <option value="$PROJECT_DIR$/MyCast/res/layout/widget.xml" />
         <option value="$PROJECT_DIR$/MyCast/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/MyCast/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/MyCast/res/layout/remote.xml" />
         <option value="$PROJECT_DIR$/MyCast/res/drawable/seek.xml" />
         <option value="$PROJECT_DIR$/MyCast/res/drawable/seek_background.xml" />
-        <option value="$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/ChromecastService.java" />
         <option value="$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/CastActivity.java" />
+        <option value="$PROJECT_DIR$/MyCast/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/ChromecastService.java" />
+        <option value="$PROJECT_DIR$/MyCast/res/layout/remote.xml" />
+        <option value="$PROJECT_DIR$/MyCast/res/layout/gallery.xml" />
+        <option value="$PROJECT_DIR$/MyCast/res/values/help.xml" />
+        <option value="$PROJECT_DIR$/MyCast/res/layout/help.xml" />
+        <option value="$PROJECT_DIR$/MyCast/res/layout/help_fragment.xml" />
+        <option value="$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/MainActivity.java" />
+        <option value="$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/HelpActivity.java" />
       </list>
     </option>
   </component>
@@ -1026,10 +713,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
+    <option name="x" value="76" />
     <option name="y" value="22" />
-    <option name="width" value="1388" />
-    <option name="height" value="1482" />
+    <option name="width" value="1218" />
+    <option name="height" value="1477" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -1081,6 +768,16 @@
     <panes>
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Android" />
@@ -1171,15 +868,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyCast" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-hdpi" />
+              <option name="myItemId" value="Backup" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1189,7 +878,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="MyCast" />
+              <option name="myItemId" value="Backup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Backup" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1197,14 +900,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyCast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyCast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.koushikdutta.mycast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1217,7 +953,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="ExportedApkPath" value="$USER_HOME$/Desktop/Backup.apk" />
     <property name="ExportedModule" value="Backup" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cast-android-tictactoe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MyCast/libs" />
     <property name="DEBUGGABLE_DEVICE" value="HT345W900909" />
     <property name="DEBUGGABLE_PROCESS" value="org.cyanogenmod.voiceplus" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -1243,11 +979,11 @@
       <recent name="com.koushikdutta.feedcast" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MyCast" />
       <recent name="$PROJECT_DIR$/MyCast/res/drawable" />
       <recent name="$PROJECT_DIR$/MyCast/res/layout" />
       <recent name="$PROJECT_DIR$/OneClick/res/layout" />
       <recent name="$PROJECT_DIR$/OneClick/res/drawable" />
-      <recent name="$PROJECT_DIR$/OneClick/res/values-v16" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/MyCast/res/drawable" />
@@ -1751,34 +1487,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="22" width="1388" height="1482" extended-state="0" />
-    <editor active="true" />
+    <frame x="76" y="22" width="1218" height="1477" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.67033774" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.59241706" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40161526" sideWeight="0.8341232" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4008843" sideWeight="0.8341232" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32599118" sideWeight="0.38226527" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.63902056" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294031" sideWeight="0.63902056" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.49959838" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32488823" sideWeight="0.674743" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32525697" sideWeight="0.61698955" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32423207" sideWeight="0.6750184" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32498157" sideWeight="0.61698955" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.59241706" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1871,139 +1607,142 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MyCast/res/values/styles.xml">
+    <entry file="file://$PROJECT_DIR$/Widgets/Widgets/src/com/koushikdutta/widgets/BetterListFragmentInternal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.2772166" vertical-offset="0" max-vertical-offset="1102">
+        <state line="333" column="22" selection-start="9886" selection-end="9886" vertical-scroll-proportion="0.26514286" vertical-offset="5354" max-vertical-offset="6460">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Widgets/Widgets/src/com/koushikdutta/widgets/BetterListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="70" selection-start="847" selection-end="847" vertical-scroll-proportion="0.12837838" vertical-offset="0" max-vertical-offset="1957">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/backup/BackupFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="47" selection-start="2453" selection-end="2453" vertical-scroll-proportion="0.08685714" vertical-offset="0" max-vertical-offset="15162">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/backup/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="97" column="47" selection-start="3192" selection-end="3192" vertical-scroll-proportion="0.69942856" vertical-offset="224" max-vertical-offset="14706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCast/gen/com/koushikdutta/mycast/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="174" selection-end="174" vertical-scroll-proportion="0.106981985" vertical-offset="0" max-vertical-offset="888">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Widgets/Widgets/res/layout/list_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="17" selection-start="998" selection-end="998" vertical-scroll-proportion="0.63995355" vertical-offset="0" max-vertical-offset="861">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Widgets/Widgets/res/layout/list_header.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="861">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCast/res/layout/remote.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="45" selection-start="1266" selection-end="1266" vertical-scroll-proportion="0.66490763" vertical-offset="104" max-vertical-offset="2185">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/CastActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="29" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.17875648" vertical-offset="52" max-vertical-offset="3040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCast/res/layout/help.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="470" selection-end="470" vertical-scroll-proportion="0.30079156" vertical-offset="0" max-vertical-offset="758">
+          <folding>
+            <element signature="e#736#750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCast/res/layout/help_fragment.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="266" selection-end="266" vertical-scroll-proportion="0.2005277" vertical-offset="0" max-vertical-offset="758">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/ChromecastService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="253" column="17" selection-start="9952" selection-end="9952" vertical-scroll-proportion="0.615285" vertical-offset="3135" max-vertical-offset="7524">
+          <folding>
+            <element signature="e#13050#13078#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyCast/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="42" selection-start="418" selection-end="418" vertical-scroll-proportion="0.1919192" vertical-offset="0" max-vertical-offset="891">
+        <state line="10" column="26" selection-start="446" selection-end="454" vertical-scroll-proportion="0.24203822" vertical-offset="0" max-vertical-offset="785">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyCast/res/drawable/chromecast.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/content/Intent.class">
+    <entry file="file://$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="249" column="11" selection-start="21026" selection-end="21026" vertical-scroll-proportion="0.33257404" vertical-offset="4420" max-vertical-offset="10279">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyCast/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="16" selection-start="810" selection-end="810" vertical-scroll-proportion="0.31986532" vertical-offset="0" max-vertical-offset="969">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Chromecast/libs/GoogleCastSdkAndroid-1.0.0.jar!/com/google/cast/ContentMetadata.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="62" selection-start="706" selection-end="706" vertical-scroll-proportion="0.43879908" vertical-offset="0" max-vertical-offset="866">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Chromecast/libs/GoogleCastSdkAndroid-1.0.0.jar!/com/google/cast/MediaProtocolMessageStream.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="24" selection-start="3607" selection-end="3607" vertical-scroll-proportion="0.34232122" vertical-offset="943" max-vertical-offset="2014">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/java/lang/Override.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="306" selection-end="306" vertical-scroll-proportion="0.14927049" vertical-offset="0" max-vertical-offset="891">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/content/ContextWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="16" selection-start="4874" selection-end="4874" vertical-scroll-proportion="0.33257404" vertical-offset="1608" max-vertical-offset="3553">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyCast/res/layout/widget.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="306" selection-end="1553" vertical-scroll-proportion="-5.259259" vertical-offset="10" max-vertical-offset="1786">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/HttpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="740" selection-end="740" vertical-scroll-proportion="0.14728682" vertical-offset="0" max-vertical-offset="2033">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyCast/res/drawable/seek_background.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyCast/res/drawable/seek.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="336" selection-end="336" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/ChromecastService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="311" column="100" selection-start="12048" selection-end="12048" vertical-scroll-proportion="0.0" vertical-offset="4321" max-vertical-offset="7429">
+        <state line="32" column="67" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
           <folding>
-            <element signature="e#12603#12631#0" expanded="true" />
-            <element signature="e#14233#14524#0" expanded="true" />
-            <element signature="e#14509#14510#0" expanded="true" />
+            <element signature="e#933#1294#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+            <element signature="e#1351#1754#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/CastActivity.java">
+    <entry file="jar://$PROJECT_DIR$/android-support-v7/libs/android-support-v4.jar!/android/support/v4/app/FragmentPagerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="44" selection-start="1650" selection-end="1650" vertical-scroll-proportion="0.33411488" vertical-offset="209" max-vertical-offset="3382">
-          <folding>
-            <element signature="e#1555#1820#0" expanded="true" />
-            <element signature="e#1809#1810#0" expanded="true" />
-            <element signature="e#1886#2399#0" expanded="true" />
-            <element signature="e#2388#2389#0" expanded="true" />
-            <element signature="e#2454#2743#0" expanded="true" />
-            <element signature="e#2732#2733#0" expanded="true" />
-            <element signature="e#4281#4903#0" expanded="true" />
-            <element signature="e#4892#4893#0" expanded="true" />
-            <element signature="e#5985#6717#0" expanded="true" />
-            <element signature="e#6706#6707#0" expanded="true" />
-            <element signature="e#7013#7680#0" expanded="true" />
-            <element signature="e#7669#7670#0" expanded="true" />
-          </folding>
+        <state line="20" column="0" selection-start="947" selection-end="947" vertical-scroll-proportion="0.4247059" vertical-offset="0" max-vertical-offset="850">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyCast/res/layout/remote.xml">
+    <entry file="file://$PROJECT_DIR$/MyCast/src/com/koushikdutta/mycast/HelpActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="21" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.4837963" vertical-offset="247" max-vertical-offset="2166">
+        <state line="12" column="0" selection-start="398" selection-end="398" vertical-scroll-proportion="0.26057142" vertical-offset="0" max-vertical-offset="1634">
           <folding>
-            <element signature="e#1676#1697#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
       </provider>
     </entry>
   </component>
@@ -2058,7 +1797,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>RomManager</last-edited>
+          <last-edited>MyCast</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

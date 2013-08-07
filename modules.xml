@@ -6,21 +6,15 @@
       <module fileurl="file://$PROJECT_DIR$/AndroidAsync/AndroidAsyncTest/AndroidAsyncTest.iml" filepath="$PROJECT_DIR$/AndroidAsync/AndroidAsyncTest/AndroidAsyncTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Backup/Backup/Backup.iml" filepath="$PROJECT_DIR$/Backup/Backup/Backup.iml" />
       <module fileurl="file://$PROJECT_DIR$/box-android-sdk/BoxAndroidLibrary/BoxAndroidLibrary.iml" filepath="$PROJECT_DIR$/box-android-sdk/BoxAndroidLibrary/BoxAndroidLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Chromecast/Chromecast.iml" filepath="$PROJECT_DIR$/../Chromecast/Chromecast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Chromecast/Chromecast.iml" filepath="$PROJECT_DIR$/Chromecast/Chromecast.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClockworkModBilling/ClockworkModBilling.iml" filepath="$PROJECT_DIR$/ClockworkModBilling/ClockworkModBilling.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DeskSMS/DeskSMS/DeskSMS.iml" filepath="$PROJECT_DIR$/DeskSMS/DeskSMS/DeskSMS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Feedcast/Feedcast.iml" filepath="$PROJECT_DIR$/Feedcast/Feedcast.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyCast/MyCast.iml" filepath="$PROJECT_DIR$/MyCast/MyCast.iml" />
       <module fileurl="file://$PROJECT_DIR$/ROMManager/RomManager/RomManager.iml" filepath="$PROJECT_DIR$/ROMManager/RomManager/RomManager.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../android-4.3/external/koush/Superuser/Superuser/Superuser.iml" filepath="$PROJECT_DIR$/../../android-4.3/external/koush/Superuser/Superuser/Superuser.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../android/external/koush/Superuser/Superuser/Superuser.iml" filepath="$PROJECT_DIR$/../../android/external/koush/Superuser/Superuser/Superuser.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../android/packages/apps/VoicePlus/VoicePlus.iml" filepath="$PROJECT_DIR$/../../android/packages/apps/VoicePlus/VoicePlus.iml" />
       <module fileurl="file://$PROJECT_DIR$/Widgets/Widgets/Widgets.iml" filepath="$PROJECT_DIR$/Widgets/Widgets/Widgets.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../android-support-v7/android-support-v7.iml" filepath="$PROJECT_DIR$/../android-support-v7/android-support-v7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../android-support-v7-mediarouter/android-support-v7-mediarouter.iml" filepath="$PROJECT_DIR$/../android-support-v7-mediarouter/android-support-v7-mediarouter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../cast-android-sample/cast-android-sample.iml" filepath="$PROJECT_DIR$/../cast-android-sample/cast-android-sample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../cast-android-tictactoe/cast-android-tictactoe.iml" filepath="$PROJECT_DIR$/../cast-android-tictactoe/cast-android-tictactoe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-support-v7/android-support-v7.iml" filepath="$PROJECT_DIR$/android-support-v7/android-support-v7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-support-v7-mediarouter/android-support-v7-mediarouter.iml" filepath="$PROJECT_DIR$/android-support-v7-mediarouter/android-support-v7-mediarouter.iml" />
       <module fileurl="file://$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" filepath="$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/ion/ion/ion.iml" filepath="$PROJECT_DIR$/ion/ion/ion.iml" />
       <module fileurl="file://$PROJECT_DIR$/ion/ion-sample/ion-sample.iml" filepath="$PROJECT_DIR$/ion/ion-sample/ion-sample.iml" />

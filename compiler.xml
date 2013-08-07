@@ -29,6 +29,9 @@
       <directory url="file://$PROJECT_DIR$/Feedcast/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/MyCast/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/OneClick/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/android-support-v7/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Chromecast/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/android-support-v7-mediarouter/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
