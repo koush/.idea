@@ -13,6 +13,14 @@
         <target>android-17</target>
       </config>
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/MyCast/MyCast/res/layout/remote.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@style/AppDialogTheme</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91cf4027-d083-485f-b214-0cc8713c8e39" name="Default" comment="" />
@@ -26,6 +34,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CompilerWorkspaceConfiguration">
+    <option name="USE_COMPILE_SERVER" value="false" />
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
     <option name="PARALLEL_COMPILATION" value="true" />
   </component>
@@ -74,7 +83,7 @@
       </breakpoint>
     </breakpoint_any>
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/mycast/ChromecastService.java" line="383" class="com.koushikdutta.mycast.ChromecastService" package="com.koushikdutta.mycast">
+      <breakpoint url="file://$PROJECT_DIR$/../../android-4.3/external/koush/Superuser/Superuser/src/com/koushikdutta/superuser/MainActivity.java" line="266" class="com.koushikdutta.superuser.MainActivity" package="com.koushikdutta.superuser">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -89,7 +98,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/mycast/CastActivity.java" line="131" class="com.koushikdutta.mycast.CastActivity" package="com.koushikdutta.mycast">
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/AsyncDatagramSocket.java" line="20" class="com.koushikdutta.async.AsyncDatagramSocket" package="com.koushikdutta.async">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -104,7 +113,22 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/mycast/CastActivity.java" line="156" class="com.koushikdutta.mycast.CastActivity" package="com.koushikdutta.mycast">
+      <breakpoint url="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/aircast/ChromecastService.java" line="114" class="com.koushikdutta.aircast.ChromecastService" package="com.koushikdutta.aircast">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/aircast/MainActivity.java" line="66" class="com.koushikdutta.aircast.MainActivity" package="com.koushikdutta.aircast">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -129,100 +153,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DeviceBackupSource.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/backup/data/DeviceBackupSource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="219" column="0" selection-start="8981" selection-end="8981" vertical-scroll-proportion="0.0" vertical-offset="4142" max-vertical-offset="4503">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestoreActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/backup/RestoreActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1099" column="23" selection-start="48905" selection-end="48905" vertical-scroll-proportion="0.0" vertical-offset="17755" max-vertical-offset="19076">
-              <folding>
-                <element signature="e#49911#50380#0" expanded="true" />
-                <element signature="e#50353#50354#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Backup/Backup/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="44" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.0" vertical-offset="551" max-vertical-offset="3914">
-              <folding>
-                <element signature="e#3404#3422#0" expanded="false" />
-                <element signature="e#3889#3907#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/backup/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="554" column="8" selection-start="27374" selection-end="27374" vertical-scroll-proportion="0.0" vertical-offset="8037" max-vertical-offset="14706">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LocalPlayReceiver.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/mycast/LocalPlayReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="950">
-              <folding>
-                <element signature="e#1238#1274#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CastActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/mycast/CastActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="0" selection-start="5492" selection-end="5492" vertical-scroll-proportion="0.0" vertical-offset="1927" max-vertical-offset="3363">
-              <folding>
-                <element signature="e#1555#1820#0" expanded="true" />
-                <element signature="e#1809#1810#0" expanded="true" />
-                <element signature="e#1886#2399#0" expanded="true" />
-                <element signature="e#2388#2389#0" expanded="true" />
-                <element signature="e#2454#2743#0" expanded="true" />
-                <element signature="e#2732#2733#0" expanded="true" />
-                <element signature="e#4281#4903#0" expanded="true" />
-                <element signature="e#4892#4893#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChromecastService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/mycast/ChromecastService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="387" column="0" selection-start="15337" selection-end="15337" vertical-scroll-proportion="0.0" vertical-offset="5765" max-vertical-offset="7543">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/mycast/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MyCast/MyCast/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="0" selection-start="2264" selection-end="2264" vertical-scroll-proportion="0.87219733" vertical-offset="210" max-vertical-offset="1102">
+            <state line="4" column="38" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1159">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChromecastApplication.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/aircast/ChromecastApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChromecastService.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/aircast/ChromecastService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="292" column="0" selection-start="12212" selection-end="12212" vertical-scroll-proportion="0.7098624" vertical-offset="4815" max-vertical-offset="6479">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -305,29 +260,29 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1368651531000" />
+        <entry key="$PROJECT_DIR$" value="1376019420000" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/allcast/ChromecastConnection.java" />
+        <option value="$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/server/AsyncHttpServerResponse.java" />
+        <option value="$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/AsyncServer.java" />
+        <option value="$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/Util.java" />
         <option value="$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/server/AsyncHttpServer.java" />
-        <option value="$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/socketio/SocketIORequest.java" />
-        <option value="$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/socketio/SocketIOConnection.java" />
-        <option value="$PROJECT_DIR$/AndroidAsync/AndroidAsyncTest/src/com/koushikdutta/async/test/Issue47.java" />
-        <option value="$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/WebSocketImpl.java" />
-        <option value="$PROJECT_DIR$/AndroidAsync/AndroidAsyncTest/src/com/koushikdutta/async/test/Issue51.java" />
-        <option value="$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/AsyncHttpClient.java" />
-        <option value="$PROJECT_DIR$/../../android/packages/apps/VoicePlus/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/backup/data/DeviceBackupSource.java" />
-        <option value="$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/backup/RestoreActivity.java" />
-        <option value="$PROJECT_DIR$/Backup/Backup/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/backup/MainActivity.java" />
         <option value="$PROJECT_DIR$/MyCast/MyCast/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/mycast/CastActivity.java" />
-        <option value="$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/mycast/LocalPlayReceiver.java" />
+        <option value="$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/aircast/AnimatedView.java" />
+        <option value="$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/aircast/MainActivity.java" />
+        <option value="$PROJECT_DIR$/MyCast/MyCast/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/MyCast/MyCast/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/MyCast/MyCast/res/layout/remote.xml" />
+        <option value="$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/aircast/CastActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/server/AsyncHttpServerResponseImpl.java" />
+        <option value="$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/aircast/ChromecastService.java" />
         <option value="$PROJECT_DIR$/MyCast/MyCast/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/aircast/ChromecastApplication.java" />
       </list>
     </option>
   </component>
@@ -335,9 +290,9 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
+    <option name="x" value="-17" />
     <option name="y" value="22" />
-    <option name="width" value="1388" />
+    <option name="width" value="1277" />
     <option name="height" value="1482" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -388,14 +343,22 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Android" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RomManager" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -422,7 +385,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mycast" />
+              <option name="myItemId" value="aircast" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -457,24 +420,153 @@
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyCast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chromecast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chromecast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GoogleCastSdkAndroid-1.0.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidAsync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidAsync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="async" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidAsync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="async" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidAsync" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="async" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SHOW_ALL_PROCESSES" value="true" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="OverrideImplement.combined" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="true" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="ExportedApkPath" value="$USER_HOME$/Desktop/Backup.apk" />
-    <property name="MemberChooser.sorted" value="false" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="ExportedModule" value="Backup" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/TextSecure/library/libs" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="ExportedApkPath" value="$USER_HOME$/Desktop/AirCast.apk" />
+    <property name="ExportedModule" value="AirCast" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MyCast/MyCast/libs" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="android" />
     <property name="DEBUGGABLE_DEVICE" value="HT345W900909" />
-    <property name="DEBUGGABLE_PROCESS" value="org.cyanogenmod.voiceplus" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="DEBUGGABLE_PROCESS" value="com.koushikdutta.allcast" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="FullScreen" value="false" />
@@ -485,116 +577,119 @@
     <property name="AndroidIncludeSystemProguardFile" value="true" />
     <property name="AndroidProguardConfigPath" value="$PROJECT_DIR$/Backup/Backup/proguard-project.txt" />
     <property name="options.lastSelected" value="project.propCompiler" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="AndroidRunProguardForReleaseBuild" value="true" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.koushikdutta.aircast" />
       <recent name="org.cyanogenmod.oneclick" />
       <recent name="com.koushikdutta.mycast" />
       <recent name="com.koushikdutta.feedcast" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/MyCast/MyCast/libs" />
       <recent name="$PROJECT_DIR$/MyCast/res/drawable" />
       <recent name="$PROJECT_DIR$/MyCast/res/layout" />
       <recent name="$PROJECT_DIR$/OneClick/res/layout" />
       <recent name="$PROJECT_DIR$/OneClick/res/drawable" />
-      <recent name="$PROJECT_DIR$/OneClick/res/values-v16" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/MyCast/res/drawable" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.MyCast">
-    <configuration default="false" name="Issue55" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
-      <module name="AndroidAsyncTest" />
-      <option name="TESTING_TYPE" value="2" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="com.koushikdutta.async.test.Issue55" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Issue57.testIssue" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
-      <module name="AndroidAsyncTest" />
-      <option name="TESTING_TYPE" value="3" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="testIssue" />
-      <option name="CLASS_NAME" value="com.koushikdutta.async.test.Issue57" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="HttpServerTests" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
-      <module name="AndroidAsyncTest" />
-      <option name="TESTING_TYPE" value="2" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="com.koushikdutta.async.test.HttpServerTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Issue47.testIssue" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
-      <module name="AndroidAsyncTest" />
-      <option name="TESTING_TYPE" value="3" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="testIssue" />
-      <option name="CLASS_NAME" value="com.koushikdutta.async.test.Issue47" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="Issue51" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
       <module name="AndroidAsyncTest" />
       <option name="TESTING_TYPE" value="2" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="CLASS_NAME" value="com.koushikdutta.async.test.Issue51" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AndroidAsyncTest" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
+      <module name="AndroidAsyncTest" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ion-test" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
+      <module name="ion-test" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RedirectTests.testFinalLocation" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
+      <module name="ion-test" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="testFinalLocation" />
+      <option name="CLASS_NAME" value="com.koushikdutta.ion.test.RedirectTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RedirectTests" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
+      <module name="ion-test" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="com.koushikdutta.ion.test.RedirectTests" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="PREFERRED_AVD" value="" />
@@ -879,9 +974,9 @@
       <method />
     </configuration>
     <configuration default="false" name="MyCast" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="MyCast" />
+      <module name="AirCast" />
       <option name="ACTIVITY_CLASS" value="com.koushikdutta.mycast.MainActivity" />
-      <option name="MODE" value="specific_activity" />
+      <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="PREFERRED_AVD" value="" />
@@ -946,19 +1041,19 @@
       <item index="10" class="java.lang.String" itemvalue="Android Application.MyCast" />
       <item index="11" class="java.lang.String" itemvalue="Android Application.OneClick" />
       <item index="12" class="java.lang.String" itemvalue="Android Application.WhisperPush" />
-      <item index="13" class="java.lang.String" itemvalue="Android Tests.Issue55" />
-      <item index="14" class="java.lang.String" itemvalue="Android Tests.Issue57.testIssue" />
-      <item index="15" class="java.lang.String" itemvalue="Android Tests.HttpServerTests" />
-      <item index="16" class="java.lang.String" itemvalue="Android Tests.Issue47.testIssue" />
-      <item index="17" class="java.lang.String" itemvalue="Android Tests.Issue51" />
+      <item index="13" class="java.lang.String" itemvalue="Android Tests.Issue51" />
+      <item index="14" class="java.lang.String" itemvalue="Android Tests.AndroidAsyncTest" />
+      <item index="15" class="java.lang.String" itemvalue="Android Tests.ion-test" />
+      <item index="16" class="java.lang.String" itemvalue="Android Tests.RedirectTests.testFinalLocation" />
+      <item index="17" class="java.lang.String" itemvalue="Android Tests.RedirectTests" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Android Tests.Issue51" />
-        <item index="1" class="java.lang.String" itemvalue="Android Tests.Issue57.testIssue" />
-        <item index="2" class="java.lang.String" itemvalue="Android Tests.Issue47.testIssue" />
-        <item index="3" class="java.lang.String" itemvalue="Android Tests.HttpServerTests" />
-        <item index="4" class="java.lang.String" itemvalue="Android Tests.Issue55" />
+        <item index="0" class="java.lang.String" itemvalue="Android Tests.RedirectTests" />
+        <item index="1" class="java.lang.String" itemvalue="Android Tests.ion-test" />
+        <item index="2" class="java.lang.String" itemvalue="Android Tests.AndroidAsyncTest" />
+        <item index="3" class="java.lang.String" itemvalue="Android Tests.RedirectTests.testFinalLocation" />
+        <item index="4" class="java.lang.String" itemvalue="Android Tests.Issue51" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
@@ -1027,34 +1122,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="22" width="1388" height="1482" extended-state="0" />
+    <frame x="-17" y="22" width="1277" height="1482" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.67033774" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40088105" sideWeight="0.8341232" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32599118" sideWeight="0.38226527" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.60682374" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40161526" sideWeight="0.8341232" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.39236394" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.63902056" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32966226" sideWeight="0.63902056" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.49959838" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939074" sideWeight="0.6740088" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32488823" sideWeight="0.67547727" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32452276" sideWeight="0.61698955" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35418358" sideWeight="0.67033774" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32599118" sideWeight="0.61738425" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.67033774" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.59241706" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1063,13 +1158,13 @@
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39720997" sideWeight="0.33333334" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3443918" sideWeight="0.6681351" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3318649" sideWeight="0.6401606" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1151,124 +1246,159 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WhisperPush/gen/org/whispersystems/whisperpush/BuildConfig.java">
+    <entry file="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/AsyncServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="140" selection-end="140" vertical-scroll-proportion="0.07242694" vertical-offset="0" max-vertical-offset="787" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WhisperPush/src/com/android/internal/telephony/ISms.aidl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="674" selection-end="674" vertical-scroll-proportion="0.45870394" vertical-offset="0" max-vertical-offset="893" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WhisperPush/src/org/whispersystems/whisperpush/service/SendReceiveService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="24" selection-start="1844" selection-end="1844" vertical-scroll-proportion="-1.7484117" vertical-offset="1604" max-vertical-offset="2489" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WhisperPush/src/org/whispersystems/whisperpush/sms/SmsListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="110" column="0" selection-start="4304" selection-end="4304" vertical-scroll-proportion="0.8068615" vertical-offset="961" max-vertical-offset="1748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WhisperPush/src/org/whispersystems/whisperpush/util/SmsServiceBridge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="45" selection-start="1478" selection-end="1478" vertical-scroll-proportion="0.158831" vertical-offset="198" max-vertical-offset="1273" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/backup/data/DeviceBackupSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="0" selection-start="8981" selection-end="8981" vertical-scroll-proportion="0.0" vertical-offset="2869" max-vertical-offset="3705">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/backup/RestoreActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1099" column="23" selection-start="48905" selection-end="48905" vertical-scroll-proportion="0.0" vertical-offset="17755" max-vertical-offset="19076">
+        <state line="837" column="20" selection-start="29132" selection-end="29132" vertical-scroll-proportion="0.36602053" vertical-offset="14556" max-vertical-offset="15618">
           <folding>
-            <element signature="e#49911#50380#0" expanded="true" />
-            <element signature="e#50353#50354#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Backup/Backup/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="44" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3914">
-          <folding>
-            <element signature="e#3404#3422#0" expanded="false" />
-            <element signature="e#3889#3907#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/mycast/HelpActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="451" selection-end="451" vertical-scroll-proportion="0.16878173" vertical-offset="0" max-vertical-offset="1501">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyCast/MyCast/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="37" selection-start="88" selection-end="88" vertical-scroll-proportion="0.04822335" vertical-offset="0" max-vertical-offset="788">
+        <state line="13" column="0" selection-start="645" selection-end="645" vertical-scroll-proportion="0.27752808" vertical-offset="0" max-vertical-offset="890">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/backup/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/MyCast/MyCast/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="554" column="8" selection-start="27374" selection-end="27374" vertical-scroll-proportion="0.0" vertical-offset="7540" max-vertical-offset="14706">
+        <state line="7" column="0" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="1102">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/mycast/ChromecastService.java">
+    <entry file="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/server/AsyncHttpServerResponseImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="387" column="0" selection-start="15337" selection-end="15337" vertical-scroll-proportion="0.0" vertical-offset="5765" max-vertical-offset="7543">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/mycast/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="912">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/mycast/CastActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="0" selection-start="5492" selection-end="5492" vertical-scroll-proportion="0.0" vertical-offset="1927" max-vertical-offset="3363">
+        <state line="215" column="13" selection-start="6257" selection-end="6257" vertical-scroll-proportion="4.159635" vertical-offset="0" max-vertical-offset="5111">
           <folding>
-            <element signature="e#1555#1820#0" expanded="true" />
-            <element signature="e#1809#1810#0" expanded="true" />
-            <element signature="e#1886#2399#0" expanded="true" />
-            <element signature="e#2388#2389#0" expanded="true" />
-            <element signature="e#2454#2743#0" expanded="true" />
-            <element signature="e#2732#2733#0" expanded="true" />
-            <element signature="e#4281#4903#0" expanded="true" />
-            <element signature="e#4892#4893#0" expanded="true" />
+            <element signature="e#6821#6987#0" expanded="true" />
+            <element signature="e#6972#6973#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/mycast/LocalPlayReceiver.java">
+    <entry file="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/server/AsyncHttpServerResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.0" vertical-offset="175" max-vertical-offset="950">
+        <state line="11" column="17" selection-start="315" selection-end="315" vertical-scroll-proportion="0.08539326" vertical-offset="0" max-vertical-offset="890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="0" selection-start="3069" selection-end="3069" vertical-scroll-proportion="0.41961232" vertical-offset="810" max-vertical-offset="3743">
           <folding>
-            <element signature="e#1238#1274#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4538#4795#0" expanded="false" />
+            <element signature="e#4784#4785#0" expanded="false" />
+            <element signature="e#4832#4976#0" expanded="false" />
+            <element signature="e#4965#4966#0" expanded="false" />
+            <element signature="e#5943#6331#0" expanded="false" />
+            <element signature="e#6316#6317#0" expanded="false" />
+            <element signature="e#6610#6934#0" expanded="false" />
+            <element signature="e#6923#6924#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/aircast/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="36" selection-start="771" selection-end="771" vertical-scroll-proportion="0.36292136" vertical-offset="0" max-vertical-offset="1292">
+          <folding>
+            <element signature="e#953#1311#0" expanded="true" />
+            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1370#1651#0" expanded="true" />
+            <element signature="e#1640#1641#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCast/MyCast/res/layout/remote.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="21" selection-start="929" selection-end="929" vertical-scroll-proportion="0.52838933" vertical-offset="0" max-vertical-offset="2185">
+          <folding>
+            <element signature="e#1676#1697#0" expanded="true" />
+            <element signature="e#1794#1812#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCast/MyCast/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="255" selection-end="267" vertical-scroll-proportion="0.13209733" vertical-offset="0" max-vertical-offset="2508">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="890">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/aircast/ChromecastConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="380" column="0" selection-start="13378" selection-end="13378" vertical-scroll-proportion="1.2212087" vertical-offset="5769" max-vertical-offset="7486">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/aircast/CastActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="29" selection-start="1441" selection-end="1441" vertical-scroll-proportion="0.22006841" vertical-offset="738" max-vertical-offset="4427">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1612#1877#0" expanded="true" />
+            <element signature="e#1866#1867#0" expanded="true" />
+            <element signature="e#1943#2456#0" expanded="true" />
+            <element signature="e#2445#2446#0" expanded="true" />
+            <element signature="e#2511#2800#0" expanded="true" />
+            <element signature="e#2789#2790#0" expanded="true" />
+            <element signature="e#4338#4960#0" expanded="true" />
+            <element signature="e#4949#4950#0" expanded="true" />
+            <element signature="e#5424#5452#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Widgets/Widgets/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="890">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MyCast/MyCast/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="0" selection-start="2264" selection-end="2264" vertical-scroll-proportion="0.87219733" vertical-offset="210" max-vertical-offset="1102">
+        <state line="4" column="38" selection-start="228" selection-end="228" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1159">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/aircast/ChromecastApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MyCast/MyCast/src/com/koushikdutta/aircast/ChromecastService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="292" column="0" selection-start="12212" selection-end="12212" vertical-scroll-proportion="0.7098624" vertical-offset="4815" max-vertical-offset="6479">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1324,7 +1454,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Android|WhisperPush</last-edited>
+          <last-edited>AllCast</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyCast/MyCast/AirCast.iml" filepath="$PROJECT_DIR$/MyCast/MyCast/AirCast.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/AndroidAsync.iml" filepath="$PROJECT_DIR$/AndroidAsync/AndroidAsync/AndroidAsync.iml" />
       <module fileurl="file://$PROJECT_DIR$/AndroidAsync/AndroidAsyncTest/AndroidAsyncTest.iml" filepath="$PROJECT_DIR$/AndroidAsync/AndroidAsyncTest/AndroidAsyncTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Backup/Backup/Backup.iml" filepath="$PROJECT_DIR$/Backup/Backup/Backup.iml" />
@@ -13,7 +14,6 @@
       <module fileurl="file://$PROJECT_DIR$/MyCast/MyCast/MyCast.iml" filepath="$PROJECT_DIR$/MyCast/MyCast/MyCast.iml" />
       <module fileurl="file://$PROJECT_DIR$/ROMManager/RomManager/RomManager.iml" filepath="$PROJECT_DIR$/ROMManager/RomManager/RomManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../android-4.3/external/koush/Superuser/Superuser/Superuser.iml" filepath="$PROJECT_DIR$/../../android-4.3/external/koush/Superuser/Superuser/Superuser.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../android/external/koush/Superuser/Superuser/Superuser.iml" filepath="$PROJECT_DIR$/../../android/external/koush/Superuser/Superuser/Superuser.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/TextSecure/library/TextSecureLibrary.iml" filepath="$PROJECT_DIR$/TextSecure/library/TextSecureLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../android/packages/apps/VoicePlus/VoicePlus.iml" filepath="$PROJECT_DIR$/../../android/packages/apps/VoicePlus/VoicePlus.iml" />
