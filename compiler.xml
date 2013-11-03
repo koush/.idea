@@ -33,6 +33,8 @@
       <directory url="file://$PROJECT_DIR$/MyCast/MyCast/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/TextSecure/library/gen" includeSubdirectories="true" />
       <directory url="file://$PROJECT_DIR$/WhisperPush/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/../../android-4.3/packages/apps/VoicePlus/gen" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/Cast/Cast/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
