@@ -2,9 +2,9 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
-    <mapping directory="$PROJECT_DIR$/../../android/packages/apps/Mirror" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/../../android/packages/apps/VoicePlus" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../../Android/android/packages/apps/Screencast" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/ClockworkModBilling" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Mirror" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/VoicePlus" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/google-play-services_lib" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../android-support-v7" vcs="Git" />

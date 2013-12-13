@@ -13,22 +13,40 @@
         <target>android-17</target>
       </config>
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/../../../Android/android/packages/apps/Screencast/res/layout/main.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@android:style/Theme.Holo.Dialog.NoActionBar</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91cf4027-d083-485f-b214-0cc8713c8e39" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../android/packages/apps/Mirror/src/android/net/nsd/NsdServiceInfo.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../android/packages/apps/Mirror/src/com/cyanogenmod/mirror/AirplayDevice.java" afterPath="$PROJECT_DIR$/../../android/packages/apps/Mirror/src/com/cyanogenmod/mirror/AirplayDevice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mirror/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Mirror/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClockworkModBilling/gen/com/clockworkmod/billing/BuildConfig.java" afterPath="$PROJECT_DIR$/ClockworkModBilling/gen/com/clockworkmod/billing/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/gen/com/google/android/gms/BuildConfig.java" afterPath="$PROJECT_DIR$/google-play-services_lib/gen/com/google/android/gms/BuildConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ClockworkModBilling/ClockworkModBilling.iml" afterPath="$PROJECT_DIR$/ClockworkModBilling/ClockworkModBilling.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cast-android-tictactoe/src/com/google/cast/samples/tictactoe/GameActivity.java" afterPath="$PROJECT_DIR$/../cast-android-tictactoe/src/com/google/cast/samples/tictactoe/GameActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../android/packages/apps/Mirror/Mirror.iml" afterPath="$PROJECT_DIR$/../../android/packages/apps/Mirror/Mirror.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../android/packages/apps/VoicePlus/src/org/cyanogenmod/voiceplus/VoicePlusSetup.java" afterPath="$PROJECT_DIR$/../../android/packages/apps/VoicePlus/src/org/cyanogenmod/voiceplus/VoicePlusSetup.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/InstallActivity.java" afterPath="$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/InstallActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mirror/Mirror.iml" afterPath="$PROJECT_DIR$/Mirror/Mirror.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/MirrorDisplayProviderService.java" afterPath="$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/MirrorDisplayProviderService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/RecordingDevice.java" afterPath="$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/RecordingDevice.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/ScreencrastDisplayProviderService.java" afterPath="$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/ScreencrastDisplayProviderService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VoicePlus/VoicePlus.iml" afterPath="$PROJECT_DIR$/VoicePlus/VoicePlus.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android-support-v7/android-support-v7.iml" afterPath="$PROJECT_DIR$/../android-support-v7/android-support-v7.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../android/packages/apps/Mirror/project.properties" afterPath="$PROJECT_DIR$/../../android/packages/apps/Mirror/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mirror/proguard_logs/dump.txt" afterPath="$PROJECT_DIR$/Mirror/proguard_logs/dump.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" afterPath="$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mirror/proguard_logs/mapping.txt" afterPath="$PROJECT_DIR$/Mirror/proguard_logs/mapping.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/VoicePlus/project.properties" afterPath="$PROJECT_DIR$/VoicePlus/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/google-play-services_lib/project.properties" afterPath="$PROJECT_DIR$/google-play-services_lib/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../android-support-v7/project.properties" afterPath="$PROJECT_DIR$/../android-support-v7/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cast-android-sample/project.properties" afterPath="$PROJECT_DIR$/../cast-android-sample/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cast-android-tictactoe/project.properties" afterPath="$PROJECT_DIR$/../cast-android-tictactoe/project.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mirror/proguard_logs/seeds.txt" afterPath="$PROJECT_DIR$/Mirror/proguard_logs/seeds.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mirror/res/values/strings.xml" afterPath="$PROJECT_DIR$/Mirror/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cast-android-sample/res/values/strings.xml" afterPath="$PROJECT_DIR$/../cast-android-sample/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mirror/proguard_logs/usage.txt" afterPath="$PROJECT_DIR$/Mirror/proguard_logs/usage.txt" />
     </list>
     <ignored path="Android.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -148,81 +166,6 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/Util.java" line="24" class="com.koushikdutta.async.Util" package="com.koushikdutta.async">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/Util.java" line="34" class="com.koushikdutta.async.Util" package="com.koushikdutta.async">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/server/BoundaryEmitter.java" line="160" class="com.koushikdutta.async.http.server.BoundaryEmitter" package="com.koushikdutta.async.http.server">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsyncTest/src/com/koushikdutta/async/test/MultipartTests.java" line="56" class="com.koushikdutta.async.test.MultipartTests$2$1$1" package="com.koushikdutta.async.test">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/server/BoundaryEmitter.java" line="159" class="com.koushikdutta.async.http.server.BoundaryEmitter" package="com.koushikdutta.async.http.server">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsyncTest/src/com/koushikdutta/async/test/WebSocketTests.java" line="77" class="com.koushikdutta.async.test.WebSocketTests" package="com.koushikdutta.async.test">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -313,36 +256,6 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/PushParser.java" line="160" class="com.koushikdutta.async.PushParser$1" package="com.koushikdutta.async">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/AsyncHttpClient.java" line="586" class="com.koushikdutta.async.http.AsyncHttpClient" package="com.koushikdutta.async.http">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/Test/src/com/koushikdutta/test/MyActivity.java" line="0" class="MyActivity.java" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -358,7 +271,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/AirPlayRouteProviderService.java" line="37" class="com.koushikdutta.route.AirPlayRouteProviderService" package="com.koushikdutta.route">
+      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/AirPlayRouteProviderService.java" line="51" class="com.koushikdutta.route.AirPlayRouteProviderService.AirplayProvider" package="com.koushikdutta.route">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -418,186 +331,6 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/server/AsyncHttpServerResponseImpl.java" line="252" class="com.koushikdutta.async.http.server.AsyncHttpServerResponseImpl" package="com.koushikdutta.async.http.server">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/server/AsyncHttpServerResponseImpl.java" line="263" class="com.koushikdutta.async.http.server.AsyncHttpServerResponseImpl" package="com.koushikdutta.async.http.server">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/cast/ChromecastService.java" line="173" class="com.koushikdutta.cast.ChromecastService$3" package="com.koushikdutta.cast">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/cast/ChromecastService.java" line="147" class="com.koushikdutta.cast.ChromecastService$3" package="com.koushikdutta.cast">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/cast/ChromecastService.java" line="170" class="com.koushikdutta.cast.ChromecastService$3" package="com.koushikdutta.cast">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/RokuRouteController.java" line="80" class="com.koushikdutta.route.RokuRouteController$3" package="com.koushikdutta.route">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/UpnpRouteProviderService.java" line="160" class="com.koushikdutta.route.UpnpRouteProviderService.UpnpRouteProvider" package="com.koushikdutta.route">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/UpnpRouteProviderService.java" line="206" class="com.koushikdutta.route.UpnpRouteProviderService" package="com.koushikdutta.route">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/UpnpRouteProviderService.java" line="124" class="com.koushikdutta.route.UpnpRouteProviderService.UpnpRouteProvider" package="com.koushikdutta.route">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/UpnpRouteProviderService.java" line="161" class="com.koushikdutta.route.UpnpRouteProviderService.UpnpRouteProvider" package="com.koushikdutta.route">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/UpnpRouteProviderService.java" line="130" class="com.koushikdutta.route.UpnpRouteProviderService.UpnpRouteProvider" package="com.koushikdutta.route">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/ion/ion-test/src/com/koushikdutta/ion/test/BitmapTests.java" line="23" class="com.koushikdutta.ion.test.BitmapTests$1" package="com.koushikdutta.ion.test">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
       <breakpoint url="file://$PROJECT_DIR$/ROMManager/RomManager/src/com/koushikdutta/rommanager/nandroid/NandroidHelper.java" line="147" class="com.koushikdutta.rommanager.nandroid.NandroidHelper" package="com.koushikdutta.rommanager.nandroid">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
@@ -613,7 +346,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/ion/ion/src/com/koushikdutta/ion/bitmap/IonBitmapCache.java" line="78" class="com.koushikdutta.ion.bitmap.IonBitmapCache" package="com.koushikdutta.ion.bitmap">
+      <breakpoint url="file://$PROJECT_DIR$/ion/ion/src/com/koushikdutta/ion/bitmap/IonBitmapCache.java" line="80" class="com.koushikdutta.ion.bitmap.IonBitmapCache" package="com.koushikdutta.ion.bitmap">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -628,7 +361,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/dns/Dns.java" line="220" class="com.koushikdutta.async.dns.Dns" package="com.koushikdutta.async.dns">
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsyncTest/src/com/koushikdutta/async/test/DnsTests.java" line="52" class="com.koushikdutta.async.test.DnsTests" package="com.koushikdutta.async.test">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -643,7 +376,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsyncTest/src/com/koushikdutta/async/test/DnsTests.java" line="49" class="com.koushikdutta.async.test.DnsTests" package="com.koushikdutta.async.test">
+      <breakpoint url="file://$PROJECT_DIR$/ion/ion/src/com/koushikdutta/ion/LoadBitmap.java" line="71" class="com.koushikdutta.ion.LoadBitmap$1" package="com.koushikdutta.ion">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -658,7 +391,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/dns/Dns.java" line="135" class="com.koushikdutta.async.dns.Dns" package="com.koushikdutta.async.dns">
+      <breakpoint url="file://$PROJECT_DIR$/ion/ion/src/com/koushikdutta/ion/IonDrawable.java" line="221" class="com.koushikdutta.ion.IonDrawable$1" package="com.koushikdutta.ion">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -673,67 +406,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/AsyncServer.java" line="463" class="com.koushikdutta.async.AsyncServer$12" package="com.koushikdutta.async">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/ion/ion/src/com/koushikdutta/ion/LoadBitmap.java" line="83" class="com.koushikdutta.ion.LoadBitmap$1" package="com.koushikdutta.ion">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/ion/ion/src/com/koushikdutta/ion/IonDrawable.java" line="248" class="com.koushikdutta.ion.IonDrawable" package="com.koushikdutta.ion">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/ion/ion/src/com/koushikdutta/ion/IonDrawable.java" line="207" class="com.koushikdutta.ion.IonDrawable$1" package="com.koushikdutta.ion">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/ion/ion/src/com/koushikdutta/ion/IonDrawable.java" line="213" class="com.koushikdutta.ion.IonDrawable$1" package="com.koushikdutta.ion">
+      <breakpoint url="file://$PROJECT_DIR$/ion/ion/src/com/koushikdutta/ion/IonDrawable.java" line="227" class="com.koushikdutta.ion.IonDrawable$1" package="com.koushikdutta.ion">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -763,7 +436,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/ion/ion-test/src/com/koushikdutta/ion/test/Issue74.java" line="22" class="com.koushikdutta.ion.test.Issue74" package="com.koushikdutta.ion.test">
+      <breakpoint url="file://$PROJECT_DIR$/ion/ion-test/src/com/koushikdutta/ion/test/Issue74.java" line="20" class="com.koushikdutta.ion.test.Issue74" package="com.koushikdutta.ion.test">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -778,7 +451,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/ResponseCacheMiddleware.java" line="473" class="com.koushikdutta.async.http.ResponseCacheMiddleware.BodySpewer" package="com.koushikdutta.async.http">
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/stream/OutputStreamDataSink.java" line="155" class="com.koushikdutta.async.stream.OutputStreamDataSink" package="com.koushikdutta.async.stream">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -793,7 +466,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/../../android/packages/apps/VoicePlus/src/org/cyanogenmod/voiceplus/VoicePlusService.java" line="385" class="org.cyanogenmod.voiceplus.VoicePlusService" package="org.cyanogenmod.voiceplus">
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/stream/OutputStreamDataSink.java" line="45" class="com.koushikdutta.async.stream.OutputStreamDataSink" package="com.koushikdutta.async.stream">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -808,7 +481,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/../../android/packages/apps/VoicePlus/src/org/cyanogenmod/voiceplus/VoicePlusService.java" line="261" class="org.cyanogenmod.voiceplus.VoicePlusService" package="org.cyanogenmod.voiceplus">
+      <breakpoint url="file://$PROJECT_DIR$/ion/ion-test/src/com/koushikdutta/ion/test/StreamTests.java" line="60" class="com.koushikdutta.ion.test.StreamTests" package="com.koushikdutta.ion.test">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -823,7 +496,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/../../android/packages/apps/VoicePlus/src/org/cyanogenmod/voiceplus/VoicePlusService.java" line="287" class="org.cyanogenmod.voiceplus.VoicePlusService" package="org.cyanogenmod.voiceplus">
+      <breakpoint url="file://$PROJECT_DIR$/ion/ion-test/src/com/koushikdutta/ion/test/Md5.java" line="22" class="com.koushikdutta.ion.test.Md5" package="com.koushikdutta.ion.test">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -838,7 +511,727 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/../../android/packages/apps/VoicePlus/src/org/cyanogenmod/voiceplus/VoicePlusService.java" line="255" class="org.cyanogenmod.voiceplus.VoicePlusService" package="org.cyanogenmod.voiceplus">
+      <breakpoint url="file://$PROJECT_DIR$/ion/ion-test/src/com/koushikdutta/ion/test/StreamTests.java" line="71" class="com.koushikdutta.ion.test.StreamTests" package="com.koushikdutta.ion.test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/../../android/packages/apps/Mirror/src/com/cyanogenmod/mirror/AirplayDevice.java" line="326" class="com.cyanogenmod.mirror.AirplayDevice" package="com.cyanogenmod.mirror">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/../../android/packages/apps/Mirror/src/com/cyanogenmod/mirror/AirplayDevice.java" line="96" class="com.cyanogenmod.mirror.AirplayDevice" package="com.cyanogenmod.mirror">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/../../android/packages/apps/Mirror/src/com/cyanogenmod/mirror/AirplayDevice.java" line="182" class="com.cyanogenmod.mirror.AirplayDevice.Streamer" package="com.cyanogenmod.mirror">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/../../android/packages/apps/Mirror/src/com/cyanogenmod/mirror/MirrorService.java" line="90" class="com.cyanogenmod.mirror.MirrorService" package="com.cyanogenmod.mirror">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsyncTest/src/com/koushikdutta/async/test/DnsTests.java" line="67" class="com.koushikdutta.async.test.DnsTests$1" package="com.koushikdutta.async.test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/AsyncServer.java" line="469" class="com.koushikdutta.async.AsyncServer$12" package="com.koushikdutta.async">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsyncTest/src/com/koushikdutta/async/test/DnsTests.java" line="49" class="com.koushikdutta.async.test.DnsTests" package="com.koushikdutta.async.test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/ion/ion-test/src/com/koushikdutta/ion/test/ExceptionTests.java" line="67" class="com.koushikdutta.ion.test.ExceptionTests" package="com.koushikdutta.ion.test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsyncTest/src/com/koushikdutta/async/test/MultipartTests.java" line="108" class="com.koushikdutta.async.test.MultipartTests" package="com.koushikdutta.async.test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/body/MultipartFormDataBody.java" line="144" class="com.koushikdutta.async.http.body.MultipartFormDataBody" package="com.koushikdutta.async.http.body">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/body/MultipartFormDataBody.java" line="147" class="com.koushikdutta.async.http.body.MultipartFormDataBody$3" package="com.koushikdutta.async.http.body">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/body/MultipartFormDataBody.java" line="156" class="com.koushikdutta.async.http.body.MultipartFormDataBody$4" package="com.koushikdutta.async.http.body">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/body/MultipartFormDataBody.java" line="163" class="com.koushikdutta.async.http.body.MultipartFormDataBody$5" package="com.koushikdutta.async.http.body">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/body/MultipartFormDataBody.java" line="172" class="com.koushikdutta.async.http.body.MultipartFormDataBody$6" package="com.koushikdutta.async.http.body">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/stream/OutputStreamDataSink.java" line="69" class="com.koushikdutta.async.stream.OutputStreamDataSink" package="com.koushikdutta.async.stream">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/filter/InflaterInputFilter.java" line="56" class="com.koushikdutta.async.http.filter.InflaterInputFilter" package="com.koushikdutta.async.http.filter">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/ion/ion-test/src/com/koushikdutta/ion/test/Issue86.java" line="31" class="com.koushikdutta.ion.test.Issue86$1" package="com.koushikdutta.ion.test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/ion/ion-test/src/com/koushikdutta/ion/test/Issue86.java" line="27" class="com.koushikdutta.ion.test.Issue86$1" package="com.koushikdutta.ion.test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsyncTest/src/com/koushikdutta/async/test/FutureTests.java" line="404" class="com.koushikdutta.async.test.FutureTests" package="com.koushikdutta.async.test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/ClingRouteController.java" line="175" class="com.koushikdutta.route.ClingRouteController$6$1" package="com.koushikdutta.route">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/../../android/packages/apps/VoicePlus/src/org/cyanogenmod/voiceplus/VoicePlusService.java" line="284" class="org.cyanogenmod.voiceplus.VoicePlusService" package="org.cyanogenmod.voiceplus">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/../../android/packages/apps/VoicePlus/src/org/cyanogenmod/voiceplus/VoicePlusService.java" line="139" class="org.cyanogenmod.voiceplus.VoicePlusService" package="org.cyanogenmod.voiceplus">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/../../android/packages/apps/Mirror/src/com/cyanogenmod/mirror/RecordingDevice.java" line="135" class="com.cyanogenmod.mirror.RecordingDevice.AudioRecorder" package="com.cyanogenmod.mirror">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/ROMManager/RomManager/src/com/koushikdutta/rommanager/scripting/ScriptBuilder.java" line="123" class="com.koushikdutta.rommanager.scripting.ScriptBuilder" package="com.koushikdutta.rommanager.scripting">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/AirPlayRouteController.java" line="53" class="com.koushikdutta.route.AirPlayRouteController$1" package="com.koushikdutta.route">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/cast/CastActivity.java" line="271" class="com.koushikdutta.cast.CastActivity" package="com.koushikdutta.cast">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/cast/CastService.java" line="101" class="com.koushikdutta.cast.CastService" package="com.koushikdutta.cast">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/server/AsyncHttpServerResponseImpl.java" line="264" class="com.koushikdutta.async.http.server.AsyncHttpServerResponseImpl$3" package="com.koushikdutta.async.http.server">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/Util.java" line="128" class="com.koushikdutta.async.Util$4" package="com.koushikdutta.async">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/Util.java" line="137" class="com.koushikdutta.async.Util$5" package="com.koushikdutta.async">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/Util.java" line="147" class="com.koushikdutta.async.Util" package="com.koushikdutta.async">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/ion/ion-test/src/com/koushikdutta/ion/test/CookieTests.java" line="43" class="com.koushikdutta.ion.test.CookieTests" package="com.koushikdutta.ion.test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/ion/ion-test/src/com/koushikdutta/ion/test/CookieTests.java" line="19" class="com.koushikdutta.ion.test.CookieTests" package="com.koushikdutta.ion.test">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/ProxyingRouteControllerBase.java" line="68" class="com.koushikdutta.route.ProxyingRouteControllerBase$2" package="com.koushikdutta.route">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/ProxyingRouteControllerBase.java" line="102" class="com.koushikdutta.route.ProxyingRouteControllerBase$3" package="com.koushikdutta.route">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/ProxyingRouteControllerBase.java" line="109" class="com.koushikdutta.route.ProxyingRouteControllerBase$3$1" package="com.koushikdutta.route">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/AsyncHttpClient.java" line="606" class="com.koushikdutta.async.http.AsyncHttpClient$6$1" package="com.koushikdutta.async.http">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/AsyncHttpClient.java" line="580" class="com.koushikdutta.async.http.AsyncHttpClient$6" package="com.koushikdutta.async.http">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/ROMManager/RomManager/src/com/koushikdutta/rommanager/DownloadService.java" line="306" class="com.koushikdutta.rommanager.DownloadService$5" package="com.koushikdutta.rommanager">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/AsyncHttpClient.java" line="597" class="com.koushikdutta.async.http.AsyncHttpClient$6$1" package="com.koushikdutta.async.http">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/cast/CastActivity.java" line="60" class="com.koushikdutta.cast.CastActivity" package="com.koushikdutta.cast">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/Main.java" line="92" class="com.koushikdutta.mirror.Main" package="com.koushikdutta.mirror">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/Main.java" line="94" class="com.koushikdutta.mirror.Main" package="com.koushikdutta.mirror">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/InstallActivity.java" line="97" class="com.koushikdutta.mirror.InstallActivity$2$1" package="com.koushikdutta.mirror">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/su/SuRunner.java" line="97" class="com.koushikdutta.mirror.su.SuRunner" package="com.koushikdutta.mirror.su">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/MirrorDisplayProviderService.java" line="159" class="com.koushikdutta.mirror.MirrorDisplayProviderService" package="com.koushikdutta.mirror">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/MirrorDisplayProviderService.java" line="68" class="com.koushikdutta.mirror.MirrorDisplayProviderService" package="com.koushikdutta.mirror">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/MirrorDisplayProviderService.java" line="44" class="com.koushikdutta.mirror.MirrorDisplayProviderService" package="com.koushikdutta.mirror">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -863,30 +1256,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AirplaySink.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../android/packages/apps/Mirror/src/com/cyanogenmod/mirror/AirplaySink.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../Android/android/packages/apps/Screencast/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="307" column="41" selection-start="11709" selection-end="11709" vertical-scroll-proportion="0.0" vertical-offset="5413" max-vertical-offset="6308">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AirplayDevice.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../android/packages/apps/Mirror/src/com/cyanogenmod/mirror/AirplayDevice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="189" column="0" selection-start="6451" selection-end="6451" vertical-scroll-proportion="0.44581005" vertical-offset="2812" max-vertical-offset="6061">
+            <state line="4" column="38" selection-start="229" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1121">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Socket.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../android-sdk/sources/android-18/java/net/Socket.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mirror/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="527" column="16" selection-start="19855" selection-end="19855" vertical-scroll-proportion="0.0" vertical-offset="9293" max-vertical-offset="18259">
+            <state line="28" column="0" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1216">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MirrorActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/MirrorActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2280">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InstallActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/InstallActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="0" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1786">
+              <folding>
+                <element signature="e#1525#1725#0" expanded="true" />
+                <element signature="e#1710#1711#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Backup/Backup/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="32" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4788">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuyActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/backup/BuyActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="0" selection-start="2760" selection-end="2760" vertical-scroll-proportion="0.64319247" vertical-offset="459" max-vertical-offset="2470">
+              <folding>
+                <element signature="e#1217#1242#0" expanded="true" />
+                <element signature="e#1809#1834#0" expanded="true" />
+                <element signature="e#1864#1884#0" expanded="true" />
+                <element signature="e#2547#2572#0" expanded="true" />
+                <element signature="e#2602#2617#0" expanded="true" />
+                <element signature="e#3022#3038#0" expanded="true" />
+                <element signature="e#3068#3093#0" expanded="true" />
+                <element signature="e#3462#3478#0" expanded="true" />
+                <element signature="e#3508#3528#0" expanded="true" />
+                <element signature="e#4602#4633#0" expanded="true" />
+                <element signature="e#5344#5375#0" expanded="true" />
+                <element signature="e#6021#6038#0" expanded="true" />
+                <element signature="e#6040#6064#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AirplayDevice.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/AirplayDevice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="182" column="30" selection-start="5989" selection-end="5989" vertical-scroll-proportion="0.0" vertical-offset="2793" max-vertical-offset="5928">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RemoteDisplayState.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Mirror/src/android/media/RemoteDisplayState.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="0" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3363">
+              <folding>
+                <element signature="e#0#6125#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#5660#5687#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proguard-project.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Backup/Backup/proguard-project.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="104" column="2" selection-start="2687" selection-end="2687" vertical-scroll-proportion="0.0" vertical-offset="1263" max-vertical-offset="2128">
               <folding />
             </state>
           </provider>
@@ -900,8 +1366,8 @@
     </FindUsagesManager>
   </component>
   <component name="GenerateSignedApkSettings">
-    <option name="KEY_STORE_PATH" value="$USER_HOME$/src/keys/cyngn-releasekey.keystore" />
-    <option name="KEY_ALIAS" value="releasekey" />
+    <option name="KEY_STORE_PATH" value="$USER_HOME$/bin/android.keystore" />
+    <option name="KEY_ALIAS" value="android" />
     <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
@@ -970,29 +1436,64 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1380774533000" />
+        <entry key="$PROJECT_DIR$" value="1383487847000" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Mirror/assets/site/index.html" />
-        <option value="$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/server/AsyncHttpServerResponseImpl.java" />
-        <option value="$PROJECT_DIR$/ion/ion-test/src/com/koushikdutta/ion/test/Issue74.java" />
-        <option value="$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/ResponseCacheMiddleware.java" />
-        <option value="$PROJECT_DIR$/AndroidAsync/AndroidAsync/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/ion/ion/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/AndroidAsync/AndroidAsyncTest/src/com/koushikdutta/async/test/DnsTests.java" />
-        <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/airplaymirror/Main.java" />
-        <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/airplaymirror/AirplayDevice.java" />
-        <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/mirror/Main.java" />
-        <option value="$PROJECT_DIR$/Mirror/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Cast/Cast/res/layout/remote.xml" />
+        <option value="$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/cast/CastApplication.java" />
+        <option value="$PROJECT_DIR$/CMS/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/CMS/cms.xml" />
+        <option value="$PROJECT_DIR$/../../../Android/android/packages/apps/Mirror/src/com/cyanogenmod/mirror/MirrorService.java" />
+        <option value="$PROJECT_DIR$/../../../Android/android/packages/apps/Mirror/src/com/cyanogenmod/mirror/MainActivity.java" />
+        <option value="$PROJECT_DIR$/../../../Android/android/packages/apps/Mirror/src/com/cyanogenmod/mirror/ScreencastControlReceiver.java" />
+        <option value="$PROJECT_DIR$/../../../Android/android/packages/apps/Mirror/src/com/cyanogenmod/mirror/RecordingDevice.java" />
+        <option value="$PROJECT_DIR$/../../../Android/android/packages/apps/Mirror/Android.mk" />
+        <option value="$PROJECT_DIR$/../../../Android/android/packages/apps/Mirror/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/../../../Android/android/packages/apps/Mirror/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/../../../Android/android/packages/apps/Screencast/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/../../../Android/android/packages/apps/Screencast/src/com/cyanogenmod/screencast/MainActivity.java" />
+        <option value="$PROJECT_DIR$/../../../Android/android/packages/apps/Screencast/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/DummyUpnpListener.java" />
+        <option value="$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/AirPlayRouteProviderService.java" />
+        <option value="$PROJECT_DIR$/Cast/Cast/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/RokuRouteController.java" />
+        <option value="$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/UpnpRouteProviderService.java" />
+        <option value="$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/ClingRouteController.java" />
+        <option value="$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/cast/CastService.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/mirror/MirrorRouteProviderService.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/mirror/AirplayMirrorRouteProviderService.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/mirror/AirplayNtp.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/mirror/AirplayServiceInfo.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/mirror/DisplayProvider.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/mirror/AirplayDevice.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/mirror/AirplayDisplayProviderService.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/mirror/MirrorActivity.java" />
         <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/mirror/MirrorService.java" />
-        <option value="$PROJECT_DIR$/../../android/packages/apps/Mirror/src/com/cyanogenmod/mirror/MirrorService.java" />
-        <option value="$PROJECT_DIR$/../../android/packages/apps/Mirror/src/com/cyanogenmod/mirror/AirplaySink.java" />
-        <option value="$PROJECT_DIR$/../../android/packages/apps/VoicePlus/src/org/cyanogenmod/voiceplus/VoicePlusSetup.java" />
-        <option value="$PROJECT_DIR$/../../android/packages/apps/Mirror/src/com/cyanogenmod/mirror/AirplayDevice.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/mirror/ScreencrastDisplayProviderService.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/mirror/MirrorDisplayProviderService.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/mirror/Main.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/android/view/SurfaceControl.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/mirror/Runner.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/mirror/RecordingDevice.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/cyanogenmod/mirror/InstallActivity.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/Main.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/RecordingDevice.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/ScreencrastDisplayProviderService.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/su/Callback.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/su/SuRunner.java" />
+        <option value="$PROJECT_DIR$/Mirror/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/InstallActivity.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/MirrorApplication.java" />
+        <option value="$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/MirrorDisplayProviderService.java" />
+        <option value="$PROJECT_DIR$/Backup/Backup/proguard-project.txt" />
+        <option value="$PROJECT_DIR$/../../../Android/android/packages/apps/Screencast/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Mirror/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Backup/Backup/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/backup/BuyActivity.java" />
       </list>
     </option>
   </component>
@@ -1000,7 +1501,7 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1348" />
+    <option name="x" value="56" />
     <option name="y" value="22" />
     <option name="width" value="1209" />
     <option name="height" value="1482" />
@@ -1067,7 +1568,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Mirror" />
+              <option name="myItemId" value="BoxAndroidLibrary" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1077,15 +1578,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Mirror" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mirror" />
+              <option name="myItemId" value="Backup" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1095,39 +1588,105 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Mirror" />
+              <option name="myItemId" value="Backup" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Backup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="koushikdutta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Backup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="koushikdutta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="backup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Backup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="SHOW_ALL_PROCESSES" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="ExportedApkPath" value="$USER_HOME$/Desktop/OneClick.apk" />
+    <property name="ExportedApkPath" value="$PROJECT_DIR$/Mirror/Mirror.apk" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
-    <property name="ExportedModule" value="OneClick" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../android/packages/apps/Mirror/testkey.jks" />
+    <property name="ExportedModule" value="Mirror" />
+    <property name="last_opened_file_path" value="$USER_HOME$/bin/android.keystore" />
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="android" />
-    <property name="DEBUGGABLE_DEVICE" value="HT345W900909" />
+    <property name="DEBUGGABLE_DEVICE" value="0352149c215c3ef9" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
-    <property name="DEBUGGABLE_PROCESS" value="org.cyanogenmod.voiceplus" />
+    <property name="DEBUGGABLE_PROCESS" value="com.koushikdutta.mirror" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
@@ -1143,44 +1702,48 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="AndroidRunProguardForReleaseBuild" value="true" />
+    <property name="AndroidRunProguardForReleaseBuild" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
-    <property name="AndroidProguardConfigPaths" value="$PROJECT_DIR$/../android-sdk/tools/proguard/proguard-android.txt:/Volumes/Data/src/OneClick/OneClickAndroid/proguard-project.txt" />
+    <property name="AndroidProguardConfigPaths" value="$PROJECT_DIR$/../android-sdk/tools/proguard/proguard-android.txt:/Volumes/Data/src/Android/Backup/Backup/proguard-project.txt" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="225" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cyanogenmod.mirror" />
       <recent name="com.koushikdutta.ion" />
       <recent name="com.koushikdutta.route" />
       <recent name="com.koushikdutta.cast" />
       <recent name="com.koushikdutta.aircast" />
-      <recent name="org.cyanogenmod.oneclick" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror" />
+      <recent name="$PROJECT_DIR$/../../../Android/android/packages/apps/Mirror/src/android/media" />
+      <recent name="$PROJECT_DIR$/GoogleDrive/libs" />
+      <recent name="$PROJECT_DIR$/../OneClickAndroid/res/layout" />
       <recent name="$PROJECT_DIR$/Mirror/assets/site" />
-      <recent name="$PROJECT_DIR$/Mirror/assets" />
-      <recent name="$PROJECT_DIR$/ion/ion/src/com/koushikdutta/ion/gif" />
-      <recent name="$PROJECT_DIR$/Mirror/src/android/hardware/display" />
-      <recent name="$PROJECT_DIR$/../OneClick/OneClickAndroid/res/drawable-nodpi" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.koushikdutta.mirror" />
+      <recent name="com.koushikdutta.ion.test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Mirror/assets/site" />
-      <recent name="$PROJECT_DIR$/ion/ion/src/com/koushikdutta/ion/gif" />
-      <recent name="$PROJECT_DIR$/../OneClick/OneClickAndroid/res/drawable-nodpi" />
-      <recent name="$PROJECT_DIR$/Cast/Cast/libs" />
-      <recent name="$PROJECT_DIR$/MyCast/MyCast/res/drawable" />
+      <recent name="$PROJECT_DIR$/../../../Android/android/packages/apps/Screencast/res" />
+      <recent name="$PROJECT_DIR$/CMS/src/com/cyanogenmod" />
+      <recent name="$PROJECT_DIR$/CMS" />
+      <recent name="$PROJECT_DIR$/CMS/src/com" />
+      <recent name="$PROJECT_DIR$/CMS/src" />
     </key>
   </component>
-  <component name="RunManager" selected="Android Application.VoicePlus">
-    <configuration default="false" name="testLookup()" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Android Application.Mirror">
+    <configuration default="false" name="All Tests (1)" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
       <module name="AndroidAsyncTest" />
-      <option name="TESTING_TYPE" value="3" />
+      <option name="TESTING_TYPE" value="0" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="testLookup" />
-      <option name="CLASS_NAME" value="com.koushikdutta.async.test.DnsTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
@@ -1219,12 +1782,34 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="All Tests (1)" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="testCancelCallback...()" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
       <module name="AndroidAsyncTest" />
-      <option name="TESTING_TYPE" value="0" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="testCancelCallback" />
+      <option name="CLASS_NAME" value="com.koushikdutta.async.test.FutureTests" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="FutureTests" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
+      <module name="AndroidAsyncTest" />
+      <option name="TESTING_TYPE" value="2" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
       <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
+      <option name="CLASS_NAME" value="com.koushikdutta.async.test.FutureTests" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
@@ -1241,34 +1826,12 @@
       <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="testBitmapCallback...()" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="testCookies()" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
       <module name="ion-test" />
       <option name="TESTING_TYPE" value="3" />
       <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="testBitmapCallback" />
-      <option name="CLASS_NAME" value="com.koushikdutta.ion.test.BitmapTests" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="testIssue()" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true" nameIsGenerated="true">
-      <module name="ion-test" />
-      <option name="TESTING_TYPE" value="3" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="testIssue" />
-      <option name="CLASS_NAME" value="com.koushikdutta.ion.test.Issue74" />
+      <option name="METHOD_NAME" value="testCookies" />
+      <option name="CLASS_NAME" value="com.koushikdutta.ion.test.CookieTests" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
@@ -1313,19 +1876,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1351,6 +1901,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1392,6 +1955,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -1410,6 +1974,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -1430,6 +1995,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -1450,6 +2016,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -1470,6 +2037,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -1490,6 +2058,7 @@
       <option name="ACTIVITY_CLASS" value="com.koushikdutta.test.MyActivity" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -1510,6 +2079,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -1530,6 +2100,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -1550,6 +2121,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -1570,6 +2142,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -1590,6 +2163,7 @@
       <option name="ACTIVITY_CLASS" value="com.koushikdutta.feedcast.MainActivity" />
       <option name="MODE" value="specific_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -1610,26 +2184,7 @@
       <option name="ACTIVITY_CLASS" value="com.koushikdutta.mycast.MainActivity" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="OneClick" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="OneClick" />
-      <option name="ACTIVITY_CLASS" value="org.cyanogenmod.oneclick.StartActivity" />
-      <option name="MODE" value="specific_activity" />
-      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -1646,10 +2201,11 @@
       <method />
     </configuration>
     <configuration default="false" name="WhisperPush" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="WhisperPush" />
+      <module name="" />
       <option name="ACTIVITY_CLASS" value="com.koushikdutta.mycast.MainActivity" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -1670,6 +2226,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -1690,6 +2247,28 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="OneClick" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="OneClick" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
@@ -1739,24 +2318,24 @@
       <item index="8" class="java.lang.String" itemvalue="Android Application.cast-android-tictactoe" />
       <item index="9" class="java.lang.String" itemvalue="Android Application.Feedcast" />
       <item index="10" class="java.lang.String" itemvalue="Android Application.MyCast" />
-      <item index="11" class="java.lang.String" itemvalue="Android Application.OneClick" />
-      <item index="12" class="java.lang.String" itemvalue="Android Application.WhisperPush" />
-      <item index="13" class="java.lang.String" itemvalue="Android Application.Mirror" />
-      <item index="14" class="java.lang.String" itemvalue="Android Application.VoicePlus" />
+      <item index="11" class="java.lang.String" itemvalue="Android Application.WhisperPush" />
+      <item index="12" class="java.lang.String" itemvalue="Android Application.Mirror" />
+      <item index="13" class="java.lang.String" itemvalue="Android Application.VoicePlus" />
+      <item index="14" class="java.lang.String" itemvalue="Android Application.OneClick" />
       <item index="15" class="java.lang.String" itemvalue="Android Tests.testMulticastLooku...()" />
-      <item index="16" class="java.lang.String" itemvalue="Android Tests.testLookup()" />
+      <item index="16" class="java.lang.String" itemvalue="Android Tests.All Tests (1)" />
       <item index="17" class="java.lang.String" itemvalue="Android Tests.All Tests" />
-      <item index="18" class="java.lang.String" itemvalue="Android Tests.All Tests (1)" />
-      <item index="19" class="java.lang.String" itemvalue="Android Tests.testBitmapCallback...()" />
-      <item index="20" class="java.lang.String" itemvalue="Android Tests.testIssue()" />
+      <item index="18" class="java.lang.String" itemvalue="Android Tests.testCancelCallback...()" />
+      <item index="19" class="java.lang.String" itemvalue="Android Tests.FutureTests" />
+      <item index="20" class="java.lang.String" itemvalue="Android Tests.testCookies()" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Android Tests.All Tests (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Android Tests.testIssue()" />
-        <item index="2" class="java.lang.String" itemvalue="Android Tests.All Tests" />
-        <item index="3" class="java.lang.String" itemvalue="Android Tests.testLookup()" />
-        <item index="4" class="java.lang.String" itemvalue="Android Tests.testBitmapCallback...()" />
+        <item index="0" class="java.lang.String" itemvalue="Android Tests.testCookies()" />
+        <item index="1" class="java.lang.String" itemvalue="Android Tests.All Tests" />
+        <item index="2" class="java.lang.String" itemvalue="Android Tests.FutureTests" />
+        <item index="3" class="java.lang.String" itemvalue="Android Tests.testCancelCallback...()" />
+        <item index="4" class="java.lang.String" itemvalue="Android Tests.All Tests (1)" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
@@ -1832,7 +2411,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1348" y="22" width="1209" height="1482" extended-state="0" />
+    <frame x="56" y="22" width="1209" height="1482" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1842,29 +2421,69 @@
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32908705" sideWeight="0.5913621" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3375796" sideWeight="0.61042184" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33847284" sideWeight="0.61042184" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3375796" sideWeight="0.38957816" order="13" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932073" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32554847" sideWeight="0.61710966" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34748763" sideWeight="0.5822259" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267254" sideWeight="0.61710966" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34434655" sideWeight="0.5822259" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939074" sideWeight="0.6740088" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27378" sideWeight="0.65104544" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32767162" sideWeight="0.61627907" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932073" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27773002" sideWeight="0.65104544" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32599118" sideWeight="0.61627907" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.67033774" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33480176" sideWeight="0.5913621" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32966226" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39985844" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3375796" sideWeight="0.38957816" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32966226" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27773002" sideWeight="0.65104544" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267254" sideWeight="0.61627907" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.67033774" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33480176" sideWeight="0.5913621" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33773863" sideWeight="0.61042184" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3267254" sideWeight="0.61710966" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34581497" sideWeight="0.5822259" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939074" sideWeight="0.6740088" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32966226" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39985844" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -1883,136 +2502,351 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../android/packages/apps/Mirror/src/com/cyanogenmod/mirror/MirrorService.java">
+    <entry file="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/AirPlayRouteProviderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="13" selection-start="1271" selection-end="1271" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6707">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../android/packages/apps/VoicePlus/src/com/android/internal/telephony/ISms.aidl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="1" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../android/packages/apps/VoicePlus/src/org/cyanogenmod/voiceplus/PackageChangeReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1235">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../android/packages/apps/VoicePlus/src/org/cyanogenmod/voiceplus/OutgoingSmsReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="657" selection-end="657" vertical-scroll-proportion="0.4185022" vertical-offset="0" max-vertical-offset="908">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/ion/ion/libs/gson-2.2.4.jar!/com/google/gson/JsonObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="76" selection-start="723" selection-end="723" vertical-scroll-proportion="0.3494253" vertical-offset="0" max-vertical-offset="893">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../android/packages/apps/VoicePlus/src/org/cyanogenmod/voiceplus/VoicePlusSetup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="63" selection-start="3279" selection-end="3279" vertical-scroll-proportion="0.3519553" vertical-offset="939" max-vertical-offset="2679">
+        <state line="47" column="0" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2280">
           <folding>
-            <element signature="e#2331#2374#0" expanded="true" />
-            <element signature="e#3586#3613#0" expanded="true" />
+            <element signature="e#2479#2506#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../android/packages/apps/VoicePlus/src/org/cyanogenmod/voiceplus/VoicePlusService.java">
+    <entry file="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/UpnpRouteProviderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="273" column="30" selection-start="9721" selection-end="9721" vertical-scroll-proportion="0.0" vertical-offset="3521" max-vertical-offset="10184">
+        <state line="73" column="0" selection-start="2967" selection-end="2967" vertical-scroll-proportion="0.0" vertical-offset="526" max-vertical-offset="3173" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/RokuRouteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="0" selection-start="1305" selection-end="1305" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2565" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/DummyUpnpListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="40" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="988" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/gen/android/media/IRemoteDisplayProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="240" selection-end="240" vertical-scroll-proportion="-3.43554" vertical-offset="3053" max-vertical-offset="3914" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/RouteControllerBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="444" selection-end="444" vertical-scroll-proportion="0.21348314" vertical-offset="0" max-vertical-offset="890" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/AirPlayRouteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="28" selection-start="3165" selection-end="3165" vertical-scroll-proportion="-2.3021665" vertical-offset="2551" max-vertical-offset="4123">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/ClingRouteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="0" selection-start="2628" selection-end="2628" vertical-scroll-proportion="0.649943" vertical-offset="38" max-vertical-offset="4142">
           <folding>
-            <element signature="e#13266#13637#0" expanded="true" />
-            <element signature="e#13626#13627#0" expanded="true" />
-            <element signature="e#20477#20771#0" expanded="true" />
-            <element signature="e#20760#20761#0" expanded="true" />
+            <element signature="e#1964#2176#0" expanded="false" />
+            <element signature="e#2165#2166#0" expanded="false" />
+            <element signature="e#8735#8771#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/cloud/DriveClient.java">
+    <entry file="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/route/ProxyingRouteControllerBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="30" selection-start="5095" selection-end="5095" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2641">
+        <state line="60" column="27" selection-start="2314" selection-end="2314" vertical-scroll-proportion="0.68187" vertical-offset="10" max-vertical-offset="2109">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/AirplayNtp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="596" selection-end="596" vertical-scroll-proportion="0.4544419" vertical-offset="0" max-vertical-offset="1463" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/DisplayProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="86" selection-end="86" vertical-scroll-proportion="0.10820045" vertical-offset="0" max-vertical-offset="878" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Android/android/packages/apps/Screencast/src/com/cyanogenmod/screencast/RecordingDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1006" selection-end="1300" vertical-scroll-proportion="0.38" vertical-offset="0" max-vertical-offset="4731" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../android-sdk/sources/android-19/java/util/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="523" column="16" selection-start="17813" selection-end="17813" vertical-scroll-proportion="0.33256084" vertical-offset="9365" max-vertical-offset="11001" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../android-sdk/sources/android-19/android/media/MediaRecorder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="32" selection-start="5885" selection-end="5885" vertical-scroll-proportion="-0.10776362" vertical-offset="2544" max-vertical-offset="18924" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../android-sdk/sources/android-19/android/media/AudioFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="51" selection-start="1386" selection-end="1386" vertical-scroll-proportion="0.2891986" vertical-offset="150" max-vertical-offset="2204" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../android-sdk/sources/android-19/android/media/AudioRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="449" column="22" selection-start="16630" selection-end="16630" vertical-scroll-proportion="0.33333334" vertical-offset="7632" max-vertical-offset="15504" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/src/android/view/SurfaceControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0" vertical-offset="233" max-vertical-offset="1178" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../android-sdk/sources/android-19/java/io/File.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="895" column="19" selection-start="32973" selection-end="32973" vertical-scroll-proportion="0.33256084" vertical-offset="16167" max-vertical-offset="21964" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../android-sdk/sources/android-19/android/os/Environment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="482" column="25" selection-start="19221" selection-end="19221" vertical-scroll-proportion="0.33256084" vertical-offset="8187" max-vertical-offset="15561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="31" selection-start="856" selection-end="856" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="817" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidAsync/AndroidAsync/src/com/koushikdutta/async/http/AsyncHttpClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="245" column="0" selection-start="9510" selection-end="9510" vertical-scroll-proportion="0.0" vertical-offset="3343" max-vertical-offset="12008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="0" selection-start="3435" selection-end="3435" vertical-scroll-proportion="0.0" vertical-offset="898" max-vertical-offset="1748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Android/android/packages/apps/Screencast/src/com/cyanogenmod/screencast/ScreencastService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="0" selection-start="5760" selection-end="5882" vertical-scroll-proportion="0.0" vertical-offset="1653" max-vertical-offset="3667" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/gen/com/koushikdutta/mirror/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="174" selection-end="174" vertical-scroll-proportion="0.110081114" vertical-offset="0" max-vertical-offset="863" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/EncoderDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="11" selection-start="1165" selection-end="1165" vertical-scroll-proportion="0.3435294" vertical-offset="240" max-vertical-offset="2679" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/AirplayDisplayProviderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="115" selection-start="2983" selection-end="2983" vertical-scroll-proportion="0.0" vertical-offset="342" max-vertical-offset="2546" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/ScreencrastDisplayProviderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="49" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0" vertical-offset="430" max-vertical-offset="2508">
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#3281#3298#0" expanded="false" />
-            <element signature="e#5877#6033#0" expanded="false" />
-            <element signature="e#6022#6023#0" expanded="false" />
+            <element signature="e#1501#1528#0" expanded="false" />
+            <element signature="e#1738#2000#0" expanded="false" />
+            <element signature="e#1989#1990#0" expanded="false" />
+            <element signature="e#2350#2392#0" expanded="false" />
+            <element signature="e#2907#2974#0" expanded="false" />
+            <element signature="e#4127#4172#0" expanded="false" />
+            <element signature="e#4198#4265#0" expanded="false" />
+            <element signature="e#4320#4345#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/dropbox/client2/session/Session.java">
+    <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/su/SuCommandCallback.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="16" selection-start="2604" selection-end="2604" vertical-scroll-proportion="0.33259913" vertical-offset="705" max-vertical-offset="2755">
-          <folding />
-        </state>
+        <state line="6" column="1" selection-start="218" selection-end="218" vertical-scroll-proportion="0.13209733" vertical-offset="0" max-vertical-offset="863" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/cloud/DropboxClient.java">
+    <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/shellproxy/ShellRunner2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="10" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3097">
+        <state line="16" column="13" selection-start="375" selection-end="375" vertical-scroll-proportion="0.089411765" vertical-offset="0" max-vertical-offset="3572" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/su/Callback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="17" selection-start="54" selection-end="54" vertical-scroll-proportion="0.044032443" vertical-offset="0" max-vertical-offset="863" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/shellproxy/ShellProcess2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="0" selection-start="2570" selection-end="2570" vertical-scroll-proportion="0.4247059" vertical-offset="912" max-vertical-offset="4218" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/RecordingDevice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="7" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5396" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/AirplaySink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="21" selection-start="1430" selection-end="1430" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="5776" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/su/SuRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="0" selection-start="3781" selection-end="3781" vertical-scroll-proportion="0.0" vertical-offset="1671" max-vertical-offset="2907">
           <folding>
             <element signature="imports" expanded="false" />
-            <element signature="e#5571#5587#0" expanded="false" />
-            <element signature="e#5589#5617#0" expanded="false" />
-            <element signature="e#6205#6206#0" expanded="false" />
-            <element signature="e#6232#6233#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/dropbox/client2/session/AccessTokenPair.java">
+    <entry file="file://$PROJECT_DIR$/Mirror/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="147" selection-end="147" vertical-scroll-proportion="0.18832599" vertical-offset="0" max-vertical-offset="908">
+        <state line="19" column="48" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.4247059" vertical-offset="0" max-vertical-offset="850">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/dropbox/client2/session/AbstractSession.java">
+    <entry file="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/cast/CastService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="21" selection-start="4082" selection-end="4082" vertical-scroll-proportion="0.5094972" vertical-offset="95" max-vertical-offset="9690">
+        <state line="422" column="37" selection-start="17340" selection-end="17340" vertical-scroll-proportion="0.64235294" vertical-offset="6560" max-vertical-offset="7410">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/dropbox/client2/DropboxAPI.java">
+    <entry file="file://$PROJECT_DIR$/Cast/Cast/src/com/koushikdutta/cast/CastApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="271" column="25" selection-start="9474" selection-end="9474" vertical-scroll-proportion="2.0715084" vertical-offset="2098" max-vertical-offset="46303">
+        <state line="13" column="0" selection-start="262" selection-end="423" vertical-scroll-proportion="0.24588235" vertical-offset="0" max-vertical-offset="850" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Cast/Cast/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="43" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.42294323" vertical-offset="15" max-vertical-offset="1615">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../android/packages/apps/Mirror/src/com/cyanogenmod/mirror/AirplaySink.java">
+    <entry file="file://$PROJECT_DIR$/../android-sdk/sources/android-19/android/content/ContextWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="307" column="41" selection-start="11709" selection-end="11709" vertical-scroll-proportion="0.0" vertical-offset="5413" max-vertical-offset="6308">
+        <state line="468" column="0" selection-start="13050" selection-end="13050" vertical-scroll-proportion="0.28980526" vertical-offset="7822" max-vertical-offset="12084" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/MirrorDisplayProviderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="0" selection-start="2798" selection-end="2798" vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="4807">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1445#1470#0" expanded="false" />
+            <element signature="e#1602#2372#0" expanded="false" />
+            <element signature="e#2361#2362#0" expanded="false" />
+            <element signature="e#7385#7409#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../android-sdk/sources/android-18/java/net/Socket.java">
+    <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/MirrorApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="527" column="16" selection-start="19855" selection-end="19855" vertical-scroll-proportion="0.0" vertical-offset="9293" max-vertical-offset="18259">
+        <state line="14" column="41" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/src/android/media/RemoteDisplayState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1578" selection-end="1578" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3363">
+          <folding>
+            <element signature="e#0#6125#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#5660#5687#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backup/Backup/proguard-project.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="2" selection-start="2687" selection-end="2687" vertical-scroll-proportion="0.0" vertical-offset="1263" max-vertical-offset="2128">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../android/packages/apps/Mirror/src/com/cyanogenmod/mirror/AirplayDevice.java">
+    <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/AirplayDevice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="0" selection-start="6451" selection-end="6451" vertical-scroll-proportion="0.44581005" vertical-offset="2812" max-vertical-offset="6061">
+        <state line="182" column="30" selection-start="5989" selection-end="5989" vertical-scroll-proportion="0.0" vertical-offset="2793" max-vertical-offset="5928">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../Android/android/packages/apps/Screencast/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="38" selection-start="229" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1121">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="1498" selection-end="1498" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/MirrorActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2280">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/src/com/koushikdutta/mirror/InstallActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1308" selection-end="1308" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1786">
+          <folding>
+            <element signature="e#1525#1725#0" expanded="true" />
+            <element signature="e#1710#1711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backup/Backup/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="32" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4788">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../android-sdk/sources/android-19/android/content/pm/PackageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2836" column="7" selection-start="119572" selection-end="119572" vertical-scroll-proportion="0.66784036" vertical-offset="52726" max-vertical-offset="60724">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Backup/Backup/src/com/koushikdutta/backup/BuyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="0" selection-start="2760" selection-end="2760" vertical-scroll-proportion="0.64319247" vertical-offset="459" max-vertical-offset="2470">
+          <folding>
+            <element signature="e#1217#1242#0" expanded="true" />
+            <element signature="e#1809#1834#0" expanded="true" />
+            <element signature="e#1864#1884#0" expanded="true" />
+            <element signature="e#2547#2572#0" expanded="true" />
+            <element signature="e#2602#2617#0" expanded="true" />
+            <element signature="e#3022#3038#0" expanded="true" />
+            <element signature="e#3068#3093#0" expanded="true" />
+            <element signature="e#3462#3478#0" expanded="true" />
+            <element signature="e#3508#3528#0" expanded="true" />
+            <element signature="e#4602#4633#0" expanded="true" />
+            <element signature="e#5344#5375#0" expanded="true" />
+            <element signature="e#6021#6038#0" expanded="true" />
+            <element signature="e#6040#6064#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2056,7 +2890,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Android 4.3 Platform</last-edited>
+          <last-edited>Android API 18 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2068,7 +2902,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Android|Mirror</last-edited>
+          <last-edited>Mirror</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -7,13 +7,12 @@
       <module fileurl="file://$PROJECT_DIR$/Backup/Backup/Backup.iml" filepath="$PROJECT_DIR$/Backup/Backup/Backup.iml" />
       <module fileurl="file://$PROJECT_DIR$/box-android-sdk/BoxAndroidLibrary/BoxAndroidLibrary.iml" filepath="$PROJECT_DIR$/box-android-sdk/BoxAndroidLibrary/BoxAndroidLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/Cast/Cast/Cast.iml" filepath="$PROJECT_DIR$/Cast/Cast/Cast.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../Chromecast/Chromecast.iml" filepath="$PROJECT_DIR$/../Chromecast/Chromecast.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClockworkModBilling/ClockworkModBilling.iml" filepath="$PROJECT_DIR$/ClockworkModBilling/ClockworkModBilling.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../android/packages/apps/Mirror/Mirror.iml" filepath="$PROJECT_DIR$/../../android/packages/apps/Mirror/Mirror.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../OneClick/OneClickAndroid/OneClick.iml" filepath="$PROJECT_DIR$/../OneClick/OneClickAndroid/OneClick.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GoogleDrive/GoogleDrive.iml" filepath="$PROJECT_DIR$/GoogleDrive/GoogleDrive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mirror/Mirror.iml" filepath="$PROJECT_DIR$/Mirror/Mirror.iml" />
       <module fileurl="file://$PROJECT_DIR$/ROMManager/RomManager/RomManager.iml" filepath="$PROJECT_DIR$/ROMManager/RomManager/RomManager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../Android/android/packages/apps/Screencast/Screencast.iml" filepath="$PROJECT_DIR$/../../../Android/android/packages/apps/Screencast/Screencast.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../android/packages/apps/VoicePlus/VoicePlus.iml" filepath="$PROJECT_DIR$/../../android/packages/apps/VoicePlus/VoicePlus.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../android/external/koush/Widgets/Widgets/Widgets.iml" filepath="$PROJECT_DIR$/../../android/external/koush/Widgets/Widgets/Widgets.iml" />
       <module fileurl="file://$PROJECT_DIR$/../android-support-v7/android-support-v7.iml" filepath="$PROJECT_DIR$/../android-support-v7/android-support-v7.iml" />
       <module fileurl="file://$PROJECT_DIR$/../android-support-v7-mediarouter/android-support-v7-mediarouter.iml" filepath="$PROJECT_DIR$/../android-support-v7-mediarouter/android-support-v7-mediarouter.iml" />
