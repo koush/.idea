@@ -11,11 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/GoogleDrive/GoogleDrive.iml" filepath="$PROJECT_DIR$/GoogleDrive/GoogleDrive.iml" />
       <module fileurl="file://$PROJECT_DIR$/Mirror/Mirror.iml" filepath="$PROJECT_DIR$/Mirror/Mirror.iml" />
       <module fileurl="file://$PROJECT_DIR$/ROMManager/RomManager/RomManager.iml" filepath="$PROJECT_DIR$/ROMManager/RomManager/RomManager.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../Android/android/packages/apps/Screencast/Screencast.iml" filepath="$PROJECT_DIR$/../../../Android/android/packages/apps/Screencast/Screencast.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../android/external/koush/Widgets/Widgets/Widgets.iml" filepath="$PROJECT_DIR$/../../android/external/koush/Widgets/Widgets/Widgets.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../android-support-v7/android-support-v7.iml" filepath="$PROJECT_DIR$/../android-support-v7/android-support-v7.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../android-support-v7-mediarouter/android-support-v7-mediarouter.iml" filepath="$PROJECT_DIR$/../android-support-v7-mediarouter/android-support-v7-mediarouter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-support-v7-appcompat/android-support-v7-appcompat.iml" filepath="$PROJECT_DIR$/android-support-v7-appcompat/android-support-v7-appcompat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-support-v7-mediarouter/android-support-v7-mediarouter.iml" filepath="$PROJECT_DIR$/android-support-v7-mediarouter/android-support-v7-mediarouter.iml" />
       <module fileurl="file://$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" filepath="$PROJECT_DIR$/google-play-services_lib/google-play-services_lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/ion/ion/ion.iml" filepath="$PROJECT_DIR$/ion/ion/ion.iml" />
       <module fileurl="file://$PROJECT_DIR$/ion/ion-sample/ion-sample.iml" filepath="$PROJECT_DIR$/ion/ion-sample/ion-sample.iml" />
